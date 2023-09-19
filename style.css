@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h1 {
+    color: rgb(118, 223, 73);
+    margin: 40px 0 40px 0;
+}
+
+body {
+    background-color: rgb(88, 105, 108);
+}
+
+.box, form {
+    gap: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+input {
+    width: 250px;
+    height: 25px;
+    border-radius: 5px;
+    padding: 0 15px 0 15px;
+}
+button {
+    width: 150px;
+    height: 25px;
+    background-color: chartreuse;
+}
